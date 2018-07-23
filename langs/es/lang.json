@@ -9,7 +9,7 @@
   "with_an_amount_of": ",de un total de",
   "thank_you_for_creating_a_customer_account_at_shop_name":
     "¡Bienvenido a la Tienda de {shop_name}! Haz creado una cuenta nueva.",
-  "here_are_your_login_details": "Estos son sus datos de acceso:",
+  "here_are_your_login_details": "Estos son tus datos de acceso:",
   "important_security_tips": "Consejos de Seguridad:",
   "always_keep_your_account_details_safe":
     "Manten\u00e9 los datos de tu cuenta en un lugar seguro.",
@@ -32,7 +32,7 @@
   "please_go_on_order_link_to_finalize_the_payment":
     "Por favor, vaya a <a href=\"{order_link}\">{order_link}</a> para finalizar el pago.",
   "thank_you_for_shopping_with_shop_name":
-    "Le agradecemos por realizar sus compras en {shop_name}!",
+    "Te agradecemos por realizar tus compras en {shop_name}!",
   "you_can_review_your_order_and_download_your_invoice_from_the_order_history_section_of_your_customer_account_by_clicking_my_account_on_our_shop":
     "Pod\u00e9s revisar tu pedido y descargar la factura desde <a href=\"{history_url}\">\"Historial de pedidos\"</a> de tu cuenta, hacé clic en <a \"Mi cuenta\" href=\"{my_account_url}\"></a> en nuestra tienda.",
   "your_order_has_been_shipped": "Tu pedido ha sido enviado",
@@ -267,7 +267,7 @@
     "Haga clic aqu\u00ed para ver este art\u00edculo:",
   "password": "Contrase\u00f1a:",
   "shop_name_invites_you_to_send_this_link_to_your_friends_so_they_can_see_your_wishlist":
-    "<span><strong>{shop_name}</strong></span> te invita a enviar el siguiente enlace a sus amigos, para que puedan ver tu lista de deseos:",
+    "<span><strong>{shop_name}</strong></span> te invita a enviar el siguiente enlace a tus amigos, para que puedan ver tu lista de deseos:",
   "firstname_lastname_indicated_you_may_want_to_see_hisher_wishlist":
     "<span><strong>{firstname} {lastname}</strong></span> indic\u00f3 que puede interesarte ver su lista de deseos:",
   "order_edited": "Pedido editado",
