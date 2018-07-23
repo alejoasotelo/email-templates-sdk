@@ -81,9 +81,9 @@
   "order_id": "ID del pedido:",
   "attached_file": "Archivo adjunto:",
   "your_message_to_shop_name_customer_service":
-    "Tu mensaje al centro de atenci\u00f3n al cliente de {shop_name}.",
+    "Tu mensaje al centro de atenci\u00f3n al cliente de {shop_name} ",
   "your_message_has_been_sent_successfully":
-    "Tu mensaje se envio exit\u00f3samente.",
+    "se envio exit\u00f3samente.",
   "we_will_answer_as_soon_as_possible":
     "Le responderemos en el menor tiempo posible",
   "message": "Mensaje:",
