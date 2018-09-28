@@ -1,21 +1,19 @@
-<mj-section background-color="white" padding="5px 20px">
-    <mj-inline-links base-url="">
-        <mj-raw>{{if $twitter}}</mj-raw>
-            <mj-link href="{{$twitter_link}}">
-                <img src="{{$mails_img_url}}/twitter.png" alt="Twitter" width="45px" height="45px" />
-            </mj-link>
-        <mj-raw>{{/if}}</mj-raw>
-        <mj-raw>{{if $facebook}}</mj-raw>
-            <mj-link href="{{$facebook_link}}">
-                <img src="{{$mails_img_url}}/facebook.png" alt="Facebook" width="45px" height="45px" />
-            </mj-link>
-        <mj-raw>{{/if}}</mj-raw>
-    </mj-inline-links>
+<mj-spacer height="20px"></mj-spacer>
+
+<mj-section background-color="white" padding="32px 20px">
+  <mj-column>
+      <mj-image align="left" alt="{shop_name}" href="{shop_url}" title="{shop_name}" src="{shop_logo}" width="68px" height="18px" align="left" padding="14px 25px"></mj-image>
+  </mj-column>
+  <mj-column>
+      <mj-text padding="18px 0px" align="center">© 2018 C1RCA Argentina</mj-text>
+  </mj-column>
+  <mj-column>
+    <mj-social align="right">
+      <mj-social-element name="facebook" href="{{$facebook_link}}"></mj-social-element>
+      <mj-social-element name="twitter" href="{{$twitter_link}}"></mj-social-element>
+      <mj-social-element name="instagram" href="{{$instagram_link}}"></mj-social-element>
+    </mj-social>
+  </mj-column>
 </mj-section>
 
-<mj-section background-color="white" padding="5px 20px">
-    <mj-column>
-        <mj-divider mj-class="divider" padding="10px 0px"></mj-divider>
-        <mj-text align="center">${{ lang.shop_name_powered_by_prestashop }}$</mj-text>
-    <mj-column>
-</mj-section>
+<mj-spacer height="20px"></mj-spacer>

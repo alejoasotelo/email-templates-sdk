@@ -1,0 +1,19 @@
+<mjml>
+  <mj-include path="../../partials/head.mjml" />
+  <mj-body mj-class="body">
+    <mj-include path="../../partials/header.mjml" />
+
+    <mj-section mj-class="section">
+      <mj-column mj-class="background-hero">
+        <mj-text mj-class="title-hero">${{ lang.product_is_almost_out_of_stock }}$</mj-text>
+        <mj-divider mj-class="title-divider-hero"></mj-divider>
+        <mj-text>${{ lang.hi }}$</mj-text>
+        <mj-spacer height="10px" />
+        <mj-text>${{ lang.the_stock_cover_is_now_less_than_the_specified_minimum_of }}$ <b>{warning_coverage}</b>.</mj-text>
+        <mj-spacer height="10px" />
+        <mj-text padding-bottom="10px">${{ lang.current_stock_cover }}$ <b>{current_coverage}</b></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="../../partials/footer.mjml" />
+  </mj-body>
+</mjml>

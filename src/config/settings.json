@@ -1,40 +1,78 @@
 {
   "product_key": "",
-  "name": "preston",
-  "version": "1.0",
-  "author": "PrestaShop",
+  "name": "c1rca2018",
+  "version": "1.0.9",
+  "author": "Alejo Sotelo",
   "inputs": [
     {
-      "type": "text",
-      "name": "var_name",
-      "default": "foo",
-      "required": false,
       "label": {
-        "en": "English label",
-        "fr": "French label"
+        "es": "Color Principal",
+        "en": "Main Color"
       },
-      "desc": {
-        "en": "English description",
-        "fr": "French description"
-      }
+      "type": "color",
+      "name": "main_color",
+      "default": "#555454",
+      "required": false
     },
     {
-      "type": "text",
-      "name": "var_name_lang",
-      "default": {
-        "en": "My custom text",
-        "fr": "Mon texte personnalisé"
-      },
-      "required": false,
-      "lang": true,
       "label": {
-        "en": "English label",
-        "fr": "French label"
+        "es": "Facebook link",
+        "en": "Facebook link"
       },
-      "desc": {
-        "en": "English description",
-        "fr": "French description"
-      }
+      "type": "text",
+      "name": "facebook_link",
+      "default": "https://www.facebook.com/c1rcaargentina",
+      "required": false
+    },
+    {
+      "label": {
+        "es": "Twitter link",
+        "en": "Twitter link"
+      },
+      "type": "text",
+      "name": "twitter_link",
+      "default": "https://www.twitter.com/c1rcaargentina",
+      "required": false
+    },
+    {
+      "label": {
+        "es": "Google+ link",
+        "en": "Google+ link"
+      },
+      "type": "text",
+      "name": "googleplus_link",
+      "default": "https://plus.google.com/+c1rcaargentina",
+      "required": false
+    },
+    {
+      "label": {
+        "es": "Instagram link",
+        "en": "Instagram link"
+      },
+      "type": "text",
+      "name": "instagram_link",
+      "default": "https://www.instagram.com/c1rcaargentina/",
+      "required": false
+    },
+    {
+      "label": {
+        "es": "Youtube link",
+        "en": "Youtube link"
+      },
+      "type": "text",
+      "name": "youtube_link",
+      "default": "https://www.youtube.com/user/c1rcaargentina/",
+      "required": false
+    },
+    {
+      "label": {
+        "es": "Pinterest link",
+        "en": "Pinterest link"
+      },
+      "type": "text",
+      "name": "pinterest_link",
+      "default": "https://www.pinterest.com/c1rcaargentina/",
+      "required": false
     }
   ]
 }

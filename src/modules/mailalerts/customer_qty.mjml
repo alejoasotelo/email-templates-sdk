@@ -1,0 +1,18 @@
+<mjml>
+  <mj-include path="../../partials/head.mjml" />
+  <mj-body mj-class="body">
+    <mj-include path="../../partials/header.mjml" />
+
+    <mj-section mj-class="section">
+      <mj-column mj-class="background-hero">
+        <mj-text mj-class="title-hero">${{ lang.product_is_now_available }}$</mj-text>
+        <mj-divider mj-class="title-divider-hero"></mj-divider>
+        <mj-text>${{ lang.hi_firstname_lastname }}$</mj-text>
+        <mj-spacer height="10px" />
+        <mj-text line-height="20px">${{ lang.this_item_is_once_again_instock }}$ ${{ lang.you_can_access_the_product_page_by_clicking_on_the_link }}$ <a href="{product_link}">{product}</a></mj-text>
+        <mj-text padding-bottom="10px"></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="../../partials/footer.mjml" />
+  </mj-body>
+</mjml> 

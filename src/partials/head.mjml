@@ -1,0 +1,17 @@
+<mj-head>
+    <mj-title>${{ lang.message_from_shop_name }}$</mj-title>
+    <mj-attributes>
+        <mj-text font-family="Open-sans, Helvetica, Arial, sans-serif" color="#555454" />
+        <mj-class name="body" background-color="#fafafa" padding="20px 0px" width="650px" />
+        <mj-class name="divider" border-color="#555454"/>
+        <mj-class name="section" background-color="white" padding="20px" />
+        <mj-class name="background-hero" background-color="#fafafa" />
+        <mj-class name="title-hero" padding="15px 15px 5px 15px" font-size="18px" />
+        <mj-class name="title-divider-hero" border-color="#555454" border-width="1px" padding="0px 15px 15px" />
+        <mj-class name="title" align="center" padding="5px" font-size="20px" line-height="30px" />
+        <mj-class name="subtitle" align="center" padding="5px" font-size="16px" />
+        <mj-text padding="2px 15px" />
+        <mj-class name="list" line-height="20px" />
+        <mj-navbar-link color="black" font-size="12px" />
+    </mj-attributes>
+</mj-head>
