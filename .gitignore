@@ -1,5 +1,4 @@
 dist/
-langs/
 node_modules/
 
 # Created by https://www.gitignore.io/api/macos,windows,linux
