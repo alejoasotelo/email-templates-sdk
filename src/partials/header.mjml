@@ -5,10 +5,11 @@
     <mj-image alt="{shop_name}" href="{shop_url}" title="{shop_name}" src="{shop_logo}" width="117px" height="31px" align="left" padding="10px"></mj-image>
   </mj-column>
   <mj-column width="75%" mj-class="navbar-container">
-    <mj-navbar base-url="{shop_url}" hamburger="hamburger" ico-color="#ffffff" align="right">
-      <mj-navbar-link href="{shop_url}">Mis Compras</mj-navbar-link>
-      <mj-navbar-link href="{shop_url}?fc=module&amp;module=blockwishlist&amp;controller=mywishlist">Mis Favoritos</mj-navbar-link>
-      <mj-navbar-link href="{shop_url}?controller=order-opc">Mi Carrito</mj-navbar-link>
+    <mj-navbar hamburger="hamburger" ico-color="#ffffff" align="right">
+      <mj-navbar-link href="{shop_url}?controller=my-account">Mi Cuenta</mj-navbar-link>
+      <mj-navbar-link href="{shop_url}?controller=history">Mis Pedidos</mj-navbar-link>
+      <!--<mj-navbar-link href="{shop_url}?fc=module&module=blockwishlist&controller=mywishlist">Mis Favoritos</mj-navbar-link>
+      <mj-navbar-link href="{shop_url}?controller=order-opc">Mi Carrito</mj-navbar-link>-->
     </mj-navbar>
   </mj-column>
 </mj-section>
