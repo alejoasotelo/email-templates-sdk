@@ -43,6 +43,8 @@
       </mj-column>
     </mj-section>
 
+    <mj-include path="./partials/alerta-cierre.mjml" />
+
     <mj-include path="./partials/account.mjml" />
 
     <mj-include path="./partials/guest_to_customer.mjml" />
