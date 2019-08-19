@@ -11,7 +11,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="section">
+    <mj-section mj-class="section"> 
       <mj-column mj-class="background-hero">
         <mj-text mj-class="title-hero">${{ lang.order_details }}$</mj-text>
         <mj-divider mj-class="title-divider-hero"></mj-divider>
@@ -26,7 +26,7 @@
         <mj-divider mj-class="title-divider-hero"></mj-divider>
         <mj-text padding-bottom="15px"><strong>${{ lang.carrier }}$</strong> {carrier}</mj-text>
         <mj-text padding-bottom="15px">${{ lang.carrier_desc }}$</mj-text>        
-      </mj-column>
+      </mj-column> 
     </mj-section>
     <mj-section mj-class="section">
       <mj-column mj-class="background-hero" width="48%">
