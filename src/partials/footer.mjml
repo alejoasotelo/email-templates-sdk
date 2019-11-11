@@ -5,7 +5,7 @@
       <mj-image align="left" alt="{shop_name}" href="{shop_url}" title="{shop_name}" src="{shop_logo}" width="68px" height="18px" align="left" padding="14px 25px"></mj-image>
   </mj-column>
   <mj-column>
-      <mj-text padding="18px 0px" align="center">© 2018 C1RCA Argentina</mj-text>
+      <mj-text padding="18px 0px" align="center">© 2019 C1RCA Argentina</mj-text>
   </mj-column>
   <mj-column>
     <mj-social align="right">
