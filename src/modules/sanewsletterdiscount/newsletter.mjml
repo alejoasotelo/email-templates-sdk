@@ -1,0 +1,18 @@
+<mjml>
+  <mj-include path="../../partials/head.mjml" />
+  <mj-body mj-class="body">
+    <mj-include path="../../partials/header.mjml" />
+
+    <mj-section mj-class="section">
+      <mj-column mj-class="background-hero">
+        <mj-text mj-class="title-hero">${{ lang.sanewsletterdiscount_title }}$</mj-text>
+        <mj-divider mj-class="title-divider-hero"></mj-divider>
+        <mj-text>${{ lang.hi_firstname_lastname }}$</mj-text>
+        <mj-spacer height="10px" /> 
+        <mj-text line-height="20px">${{ lang.sanewsletterdiscount_newsletter_subscription }}$</mj-text>
+        <mj-text padding-bottom="10px"></mj-text>
+      </mj-column> 
+    </mj-section> 
+    <mj-include path="../../partials/footer.mjml" /> 
+  </mj-body>
+</mjml> 
