@@ -21,7 +21,7 @@
       </mj-column>
     </mj-section>
     
-    <mj-section mj-class="section">
+    <mj-section mj-class="section padding-top-remove">
       <mj-column mj-class="background-hero">
         <mj-text mj-class="title-hero">${{ lang.shipping }}$</mj-text>
         <mj-divider mj-class="title-divider-hero"></mj-divider>
@@ -29,19 +29,11 @@
         <mj-text padding-bottom="15px">${{ lang.carrier_desc }}$</mj-text>        
       </mj-column> 
     </mj-section>
-    <mj-section mj-class="section">
-      <mj-column mj-class="background-hero" width="48%">
+    <mj-section mj-class="section padding-top-remove">
+      <mj-column mj-class="background-hero">
         <mj-text mj-class="title-hero">${{ lang.delivery_address }}$</mj-text>
         <mj-divider mj-class="title-divider-hero"></mj-divider>
         <mj-text padding-bottom="15px">{delivery_block_html}</mj-text>
-      </mj-column>
-      <mj-column width="4%">
-        <mj-spacer height="20px"></mj-spacer>
-      </mj-column>
-      <mj-column mj-class="background-hero" width="48%">
-        <mj-text mj-class="title-hero">${{ lang.billing_address }}$</mj-text>
-        <mj-divider mj-class="title-divider-hero"></mj-divider>
-        <mj-text padding-bottom="15px">{invoice_block_html}</mj-text>
       </mj-column>
     </mj-section>
 

@@ -5,6 +5,7 @@
         <mj-class name="body" background-color="#fafafa" padding="20px 0px" width="650px" />
         <mj-class name="divider" border-color="#555454"/>
         <mj-class name="section" background-color="white" padding="20px" />
+        <mj-class name="padding-top-remove" padding-top="0px" />
         <mj-class name="background-hero" background-color="#fafafa" />
         <mj-class name="title-hero" padding="15px 15px 5px 15px" font-size="18px" />
         <mj-class name="title-divider-hero" border-color="#555454" border-width="1px" padding="0px 15px 15px" />
