@@ -7,17 +7,18 @@
       <mj-column>
         <mj-text>${{ lang.hi_firstname_lastname }}$</mj-text>
         <mj-spacer height="20px"></mj-spacer>
-        <mj-text>${{ lang.thank_you_for_shopping_with_shop_name }}$</mj-text> 
+        <mj-text>${{ lang.thank_you_for_shopping_with_shop_name }}$</mj-text>
         <mj-text>${{ lang.explicacion_proceso_de_compra }}$</mj-text>
+        <mj-text padding-bottom="15px">${{ lang.mensaje_covid }}$</mj-text>
       </mj-column>
     </mj-section> 
 
-    <mj-section mj-class="section"> 
+    <mj-section mj-class="section">
       <mj-column mj-class="background-hero">
         <mj-text mj-class="title-hero">${{ lang.order_details }}$</mj-text>
         <mj-divider mj-class="title-divider-hero"></mj-divider>
         <mj-text><strong>${{ lang.order }}$</strong> {order_name} ${{ lang.placed_on }}$ {date}hs</mj-text>
-        <mj-text padding-bottom="15px"><strong>${{ lang.payment }}$</strong> {payment}</mj-text> 
+        <mj-text padding-bottom="15px"><strong>${{ lang.payment }}$</strong> {payment}</mj-text>
       </mj-column>
     </mj-section>
     
@@ -26,8 +27,8 @@
         <mj-text mj-class="title-hero">${{ lang.shipping }}$</mj-text>
         <mj-divider mj-class="title-divider-hero"></mj-divider>
         <mj-text padding-bottom="15px"><strong>${{ lang.carrier }}$</strong> {carrier}</mj-text>
-        <mj-text padding-bottom="15px">${{ lang.carrier_desc }}$</mj-text>        
-      </mj-column> 
+        <mj-text padding-bottom="15px">${{ lang.carrier_desc }}$</mj-text>
+      </mj-column>
     </mj-section>
     <mj-section mj-class="section padding-top-remove">
       <mj-column mj-class="background-hero">
