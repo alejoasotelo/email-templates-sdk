@@ -1,6 +1,6 @@
 {
   "name": "ps-mails-sdk",
-  "version": "1.0.0",
+  "version": "1.4.0",
   "description": "PrestaShop emails SDK",
   "main": "index.js",
   "scripts": {
