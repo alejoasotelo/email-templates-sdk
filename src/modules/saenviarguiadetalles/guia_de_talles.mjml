@@ -5,11 +5,11 @@
 
     <mj-section mj-class="section">
       <mj-column mj-class="background-hero">
-        <mj-text mj-class="title-hero">${{lang.saenviarguiadetalles_title}}$</mj-text>
+        <mj-text mj-class="title-hero">${{ lang.saenviarguiadetalles_title }}$</mj-text>
         <mj-divider mj-class="title-divider-hero"></mj-divider>
         <mj-text>${{ lang.hi_firstname_lastname }}$</mj-text>
         <mj-spacer height="10px" /> 
-        <mj-text line-height="20px">${{lang.saenviarguiadetalles_newslleter}}$</mj-text>
+        <mj-text line-height="20px">${{ lang.saenviarguiadetalles_newslleter }}$</mj-text>
         <mj-text line-height="20px">{items}</mj-text> 
         <mj-text padding-bottom="10px"></mj-text> 
       </mj-column> 
